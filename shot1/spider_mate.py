@@ -27,7 +27,7 @@ def wjson(results):
         j = len(results)
         for result in range(0, j):
 
-            url = re.findall(r"http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*,]|(?:%[0-9a-fA-F][0-9a-fA-F]))+", results[0][1])
+            url = re.findall(r"http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*,]|(?:%[0-9a-fA-F][0-9a-fA-F]))+", results[i][1])
             url = str(url).strip('[]').strip("'")
 
             js.write('{"name":"'+ results[result][0]+'",\r\n')
@@ -65,6 +65,8 @@ def findata(res):#查找是否在线并返回数字 isonline
     date = []
     soup = bs4.BeautifulSoup(res.text, "html.parser")
     content = soup.find("span", class_="nowpage")
+    if content is None:
+        return -1
     a = re.search('.',content.string)
     is_or_not = a.string.strip().find("休息")
     return is_or_not
@@ -82,8 +84,10 @@ def ask(url):
     num = findata(res)
     if num > 0:
         answer = "不在线"
-    else:
+    elif num == 0:
         answer = "在线"
+    else:
+        answer = "错误链接"
     return answer
 
 def read_url(path):
