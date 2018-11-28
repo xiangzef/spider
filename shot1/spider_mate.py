@@ -67,9 +67,10 @@ def findata(res):#查找是否在线并返回数字 isonline
     content = soup.find("span", class_="nowpage")
     if content is None:
         return -1
-    a = re.search('.',content.string)
-    is_or_not = a.string.strip().find("休息")
-    return is_or_not
+    else:
+        a = re.search('.',content.string)
+        is_or_not = a.string.strip().find("休息")
+        return is_or_not
 
 
 def get_url(url):
