@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d2204d5d-85b8-446f-9419-c340abd17cb6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shot1/creat_html.py" beforeDir="false" afterPath="$PROJECT_DIR$/shot1/creat_html.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/result.json" beforeDir="false" afterPath="$PROJECT_DIR$/file/result.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shot1/result.json" beforeDir="false" afterPath="$PROJECT_DIR$/shot1/result.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shot1/spider_mate.py" beforeDir="false" afterPath="$PROJECT_DIR$/shot1/spider_mate.py" afterDir="false" />
     </list>
@@ -14,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/spider$spider_mate.coverage" NAME="spider_mate Coverage Results" MODIFIED="1543409302824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shot1" />
+    <SUITE FILE_PATH="coverage/spider$spider_mate.coverage" NAME="spider_mate Coverage Results" MODIFIED="1543410841773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shot1" />
     <SUITE FILE_PATH="coverage/spider$readbak.coverage" NAME="readbak Coverage Results" MODIFIED="1543385591955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shot1" />
     <SUITE FILE_PATH="coverage/spider$connect.coverage" NAME="connect Coverage Results" MODIFIED="1543298986977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/shot1" />
     <SUITE FILE_PATH="coverage/spider$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1542959705620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
@@ -26,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shot1/spider_mate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="623">
-              <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+            <state relative-caret-position="358">
+              <caret line="97" column="33" lean-forward="true" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="33" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -38,7 +38,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shot1/readbak.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
+            <state relative-caret-position="570">
               <caret line="30" column="9" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="12" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -63,7 +63,7 @@
         <entry file="file://$PROJECT_DIR$/shot1/result.json">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret selection-end-column="120" />
+              <caret column="118" lean-forward="true" selection-start-column="12" selection-end-column="118" />
             </state>
           </provider>
         </entry>
@@ -72,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/file/result.json">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="21874" selection-start-column="21874" selection-end-column="21874" />
+              <caret column="99" lean-forward="true" selection-start-column="99" selection-end-column="99" />
             </state>
           </provider>
         </entry>
@@ -94,6 +94,10 @@
       <find>que</find>
       <find>未知&quot;}1</find>
       <find>findata</find>
+      <find>JW9fJn5wjN0clsICjnc1P8GfiJU_3D</find>
+      <find>日本</find>
+      <find>../file/res</find>
+      <find>错误</find>
     </findStrings>
     <replaceStrings>
       <replace>ORCL</replace>
@@ -118,9 +122,9 @@
         <option value="$PROJECT_DIR$/shot1/Book.json" />
         <option value="$PROJECT_DIR$/shot1/readbak.py" />
         <option value="$PROJECT_DIR$/shot1/write_xlsx.py" />
+        <option value="$PROJECT_DIR$/shot1/creat_html.py" />
         <option value="$PROJECT_DIR$/shot1/result.json" />
         <option value="$PROJECT_DIR$/file/result.json" />
-        <option value="$PROJECT_DIR$/shot1/creat_html.py" />
         <option value="$PROJECT_DIR$/shot1/spider_mate.py" />
       </list>
     </option>
@@ -366,7 +370,7 @@
       <workItem from="1543295691243" duration="1023000" />
       <workItem from="1543296823555" duration="17895000" />
       <workItem from="1543384205566" duration="10339000" />
-      <workItem from="1543396130222" duration="12071000" />
+      <workItem from="1543396130222" duration="13342000" />
     </task>
     <task id="LOCAL-00001" summary="新增两个自动生成方法">
       <created>1543400163473</created>
@@ -382,11 +386,25 @@
       <option name="project" value="LOCAL" />
       <updated>1543407496098</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="新增h5生成方法&#10;自动生成a标签 &#10;&#10;bug:&#10;循环查询了一个url">
+      <created>1543409523309</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1543409523309</updated>
+    </task>
+    <task id="LOCAL-00004" summary="新增h5生成方法&#10;自动生成a标签 &#10;&#10;bug:&#10;循环查询了一个url">
+      <created>1543410363275</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1543410363276</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56040000" />
+    <option name="totallyTimeSpent" value="57311000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -401,12 +419,12 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14498934" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14498934" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.112798266" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4262473" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39696312" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -430,7 +448,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="新增两个自动生成方法" />
     <MESSAGE value="新增h5生成方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增h5生成方法" />
+    <MESSAGE value="新增h5生成方法&#10;自动生成a标签 &#10;&#10;bug:&#10;循环查询了一个url" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增h5生成方法&#10;自动生成a标签 &#10;&#10;bug:&#10;循环查询了一个url" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/setup.py" />
@@ -502,30 +521,6 @@
     <entry file="file://$PROJECT_DIR$/shot1/write_xlsx.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/shot1/result.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="120" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file/result.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21874" selection-start-column="21874" selection-end-column="21874" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shot1/readbak.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="30" column="9" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shot1/creat_html.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="331">
@@ -536,10 +531,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/shot1/readbak.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shot1/result.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="118" lean-forward="true" selection-start-column="12" selection-end-column="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file/result.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="99" lean-forward="true" selection-start-column="99" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/shot1/spider_mate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+        <state relative-caret-position="358">
+          <caret line="97" column="33" lean-forward="true" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="33" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>

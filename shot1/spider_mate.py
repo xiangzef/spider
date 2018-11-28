@@ -95,7 +95,8 @@ def read_url(path):
         result = json.loads(js.read())
         i = 0
         for re in result['result']:
-            is_or_not = ask(result['result'][i]['url'])
+            if re['y/n'] is not "错误链接":
+                is_or_not = ask(result['result'][i]['url'])
             result['result'][i]['y/n'] = is_or_not
             i = 1 + i
 
@@ -103,8 +104,13 @@ def read_url(path):
         json.dump(result, js, ensure_ascii=False)
 
 def main():
-    result = readbak.readjson()
-    wjson(result)
+    #读取 book 生成 结果
+    #利用结果生成json
+
+    # result = readbak.readjson()
+    # wjson(result)
+
+    #读 file\result.json 查询网页 更新 y/n 生成网页并打开
     read_url(jason_filename)
     print("Over")
     h5.html_auto()
