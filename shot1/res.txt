@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+            <title>大香蕉直播間_全球美女直播_大香蕉伊人網_大香蕉网_伊人在线大香蕉</title>
+            <meta name="robots" content="all" />
+<meta name="keywords" content="大香蕉直播間,大香蕉,大香蕉网站,伊人在线大香蕉为您提供全球综合在线直播你懂的内容,大香蕉深受广大网友们喜爱每天不间断的更新汇聚了上万部免费的激情在线高清电影.<br>" />
+<meta name="description" content="大香蕉直播間,大香蕉,大香蕉网站,伊人在线大香蕉为您提供全球综合在线直播你懂的内容,大香蕉深受广大网友们喜爱每天不间断的更新汇聚了上万部免费的激情在线高清电影.<br>" />
+
+            <link href="view/css/style.css" rel="stylesheet" type="text/css">
+<script src="https://cdn.bootcss.com/jquery/1.11.0/jquery.min.js"></script>
+<script type="text/javascript" src="view/chplayer/chplayer.min.js"></script>
+    </head>
+   
+<body>
+    <script src="https://cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
+    <div class="m980">
+        <div class="logo"><a href="/">
+            <span>
+                <font id="domain">
+                    大香蕉
+                </font>
+                <font color="#FF0000">
+                    直播間
+                </font>
+            </span>
+            <span style="font-size:14px">
+                直播視頻均來自網絡採集,免費分享給大家觀賞,不保證直播長久有效!
+          </span></a>
+        </div>
+      
+        <div class="topad" id="topad">
+            
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="m980 hide" id="topada">
+            <div class="clear">
+        </div>
+</div>
+    <div class="m980 hide" id="alltop">
+<div class="clear"></div>
+</div>
+    <div class="m980 hide" id="allmid">
+<div class="clear"></div>
+</div>
+    <div class="m980">
+      <div class="title">
+            <a href="/">
+                返回首页
+            </a>
+             » 
+            <span class="nowpage">
+                cherry_deee的直播间
+            </span>
+            
+        </div>
+    	<div class="player">
+		<div id="player" style="display: block; background-color: #000; overflow: hidden; position: relative; width: 980px; height: 570px;">
+						<span class="tips">正在获取播放地址……</span>
+			
+		</div>
+		<div style="width: 100%; text-align: center; color: red; height: 30px; line-height: 30px; background: #000">本站所有视频均来自网络切<strong style="color: #FFF">免费</strong>分享给大家,不保证长久有效！</div>
+	</div>
+	    <div style="clear:both">
+	    </div>
+	</div>
+<script type="text/javascript" src="view/js/common.js?006123"></script>
+<script type="text/javascript">getmyplays('https://edge28.stream.highwebmedia.com/live-hls/amlst:cherry_deee-sd-bf37139edf027a9c0e23c8f69841401b59fd6307d6ad3b06ce4840965b787e40_trns_h264/playlist.m3u8',0,'https://cbjpeg.stream.highwebmedia.com/stream?room=cherry_deee&f=')</script>
+
+<div class="m980">
+        <div style="clear:both">
+        </div>
+    </div>
+    <div class="m980">
+        <div class="foot">
+            <span>
+                警告：本站含有成人内容，未满18岁者请勿盗入，否则后果自负！
+                <br>
+                    WARNING: This Site Contains Adult Contents, No Entry For Less Than 18-Years-Old !
+                    <br>
+                        郑重声明：我们立足于美利坚合众国，对美利坚合众国华人服务，未经授权禁止复制或嬉闹镜像，请未成年网友自觉离开！
+                        <br>
+                        </br>
+                    </br>
+                </br>
+            </span>
+            <span>
+            </span>
+        </div>
+        <div style="clear:both">
+        </div>
+    </div>
+<script>
+  (function() {
+    var linkhtml = '<a href="http://yy570.xyz" target="_blank"   style="font-size:34px;"><b>本站域名即将过期，</b><font style="color:red;">抓紧收藏发布页地址 yy570.xyz</font></a>';
+    if($('#topada').length>0){
+        if($('#topada').hasClass('hide')){
+            $('#topada').prepend(linkhtml).addClass('show')
+        }
+    }
+}());
+
+(function() {
+    var linkhtml = '<div id="nav">';
+linkhtml+= '<ul class="xs">';
+linkhtml+= '<li class="sy"><a href="http://www.22dfa.com/">在线播放</a></li>';
+linkhtml+= '<li class=""><a href="http://www.22dfa.com/vodtype/12.html" title="国产自拍">国产自拍</a></li>';
+linkhtml+= '<li class=""><a href="http://www.22dfa.com/vodtype/13.html" title="日韩女优">日韩女优</a></li>';
+linkhtml+= '<li class=""><a href="http://www.22dfa.com/vodtype/14.html" title="欧美激情">欧美激情</a></li>';
+linkhtml+= '<li class=""><a href="http://www.22dfa.com/vodtype/15.html" title="制服师生">制服师生</a></li>';
+linkhtml+= '<li class=""><a href="http://www.22dfa.com/vodtype/16.html" title="强奸乱伦">强奸乱伦</a></li>';
+linkhtml+= '<li class=""><a href="http://www.22dfa.com/vodtype/17.html" title="成人动漫">成人动漫</a></li>';
+linkhtml+= '<li class=""><a href="http://www.22dfa.com/vodtype/18.html" title="HD高清">HD高清</a></li>';
+linkhtml+= '<li class=""><a href="http://www.22dfa.com/vodtype/19.html" title="伦理">伦理</a></li>';
+linkhtml+= '</ul>';
+linkhtml+= '<ul class="tp">';
+linkhtml+= '<li class="sy"><a href="http://www.22dfa.com/">高速播放</a></li>';
+linkhtml+= '<li class=""><a href="http://www.22dfa.com/vodtype/20.html" title="偷拍自拍">偷拍自拍</a></li>';
+linkhtml+= '<li class=""><a href="http://www.22dfa.com/vodtype/21.html" title="日韩女优">日韩女优</a></li>';
+linkhtml+= '<li class=""><a href="http://www.22dfa.com/vodtype/22.html" title="欧美激情">欧美激情</a></li>';
+linkhtml+= '<li class=""><a href="http://www.22dfa.com/vodtype/23.html" title="成人动漫">成人动漫</a></li>';
+linkhtml+= '<li class=""><a href="http://www.22dfa.com/vodtype/24.html" title="经典三级">经典三级</a></li>';
+linkhtml+= '<li class=""><a href="http://www.22dfa.com/vodtype/25.html" title="强奸乱伦">强奸乱伦</a></li>';
+linkhtml+= '<li class=""><a href="http://www.22dfa.com/vodtype/26.html" title="制服丝袜">制服丝袜</a></li>';
+linkhtml+= '</ul>';
+linkhtml+= '</div>';
+linkhtml+= '<div id="nav">';
+linkhtml+= '<ul class="tp"><li class="sy"><a href="https://www.77kfc.com/?tf" target="_blank">会员专区</a></li>';
+linkhtml+= '<li><a href="https://www.77kfc.com/List-Category/8.html?tf" target="_blank">剧情专区</a></li>';
+linkhtml+= '<li><a href="https://www.77kfc.com/List-Category/6.html?tf" target="_blank">宅男女神</a></li>';
+linkhtml+= '<li><a href="https://www.77kfc.com/List-Category/5.html?tf" target="_blank">唯美大片</a></li>';
+linkhtml+= '<li><a href="https://www.77kfc.com/List-Category/16.html?tf" target="_blank">中韩主播</a></li>';
+linkhtml+= '<li><a href="https://www.77kfc.com/List-Category/7.html?tf" target="_blank">激情自拍</a></li>';
+linkhtml+= '<li><a href="https://www.77kfc.com/List-Category/13.html?tf" target="_blank">中文館</a></li>';
+linkhtml+= '<li><a href="https://www.77kfc.com/List-Category/12.html?tf" target="_blank">無碼館</a></li>';
+linkhtml+= '</div>';  
+
+    if($('#alltop').length>0){
+        if($('#alltop').hasClass('hide')){
+            $('#alltop').prepend(linkhtml).addClass('show')
+        }
+    }
+}());
+  (function() {
+    var slinkhtml = '<a href="https://www.77kfc.com" target="_blank">高画质线上影城_极致完美享受<span style="color: #f00;">点击进入</span></a>';
+//    linkhtml+= '<tr>';
+//    linkhtml+= '<td><a href="https://x.99x.la" target="_blank" style="font-weight:bold;color:#990000;">99x文本链</a></td>';
+ //   linkhtml+= '<td><a href="/3399av.html" target="_blank">少女强奸视频</a></td>';
+  //  linkhtml+= '</tr>';
+//    linkhtml+= '</tbody></table>';
+
+    if($('#allmid').length>0){
+        if($('#allmid').hasClass('hide')){
+          $('#allmid').css("background","#ccffde").css("font-size","28px").css("font-weight","#bold").css("color","#ff0").css("text-align","center")
+          
+            $('#allmid').prepend(slinkhtml).addClass('show')
+        }
+    }
+}());
+</script>
+
+    <div style="display:none">
+<script src="view/js/tongji.js"></script>
+    </div></body>
+</html>
