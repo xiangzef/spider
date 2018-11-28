@@ -73,6 +73,14 @@ def get_url(url):
     res = requests.get(url, headers=headers)
     return res
 
+def ask(url):
+    res = get_url(url)
+    num = findata(res)
+    if num > 0:
+        answer = "不在线"
+    else:
+        answer = "在线"
+    return answer
 
 def read_url(path):
     with open(jason_filename,encoding="utf-8") as js:
@@ -80,9 +88,10 @@ def read_url(path):
         result = result['result']
         i = 0
         for re in result :
-            print (result[i]['url'])
+            is_or_not = ask(result[i]['url'])
+            result[i]['y/n']=is_or_not
             i=1+i
-
+    
 
 def main():
     read_url(jason_filename)
