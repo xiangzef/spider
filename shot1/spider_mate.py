@@ -6,9 +6,9 @@ import readbak
 import openpyxl
 import numpy as np
 import re
-import creat_html
+import creat_html as h5
 
-jason_filename = 'result.json'
+jason_filename = '../file/result.json'
 
 def conORCL():
     conn = cx_Oracle.connect('FD20180816/FD20180816@ORCL')    #连接数据库
@@ -21,7 +21,6 @@ def closORCL():
     conn.close()
 
 def wjson(results):
-    data = np.empty((len(results), 3))
     with open(jason_filename, "w", encoding="utf-8") as js:
         js.write('{"result":[')
         i = 0
@@ -42,7 +41,7 @@ def wjson(results):
             # res = get_url(url)
             # on_or_not = findata(res)
     # fdata = np.c_[results, data]
-    return data
+
 
 def to_excel(data):
     wb = openpyxl.workbook()
@@ -104,6 +103,8 @@ def main():
     wjson(result)
     read_url(jason_filename)
     print("Over")
+    h5.html_auto()
+
 
 if __name__ == '__main__':
     main()
