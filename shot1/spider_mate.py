@@ -24,14 +24,20 @@ def wjson(results):
     data = np.empty((len(results), 3))
     with open(jason_filename, "w", encoding="utf-8") as js:
         js.write('{"result":[')
-        for result in range(0, len(results)):
+        i = 0
+        j = len(results)
+        for result in range(0, j):
 
             url = re.findall(r"http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*,]|(?:%[0-9a-fA-F][0-9a-fA-F]))+", results[0][1])
             url = str(url).strip('[]').strip("'")
 
             js.write('{"name":"'+ results[result][0]+'",\r\n')
             js.write('"url":"'+ url+'",\r\n')
-            js.write('"y/n":"'+ '未知"},'+'\r\n')
+            if i == j-1:
+                js.write('"y/n":"'+ '未知"}'+'\r\n')
+            else :
+                js.write('"y/n":"' + '未知"},' + '\r\n')
+            i=i+1
         js.write(']\r\n}')
             # res = get_url(url)
             # on_or_not = findata(res)
@@ -61,7 +67,6 @@ def findata(res):#查找是否在线并返回数字 isonline
     soup = bs4.BeautifulSoup(res.text, "html.parser")
     content = soup.find("span", class_="nowpage")
     a = re.search('.',content.string)
-    print(content.string.strip())
     is_or_not = a.string.strip().find("休息")
     return is_or_not
 
@@ -83,17 +88,20 @@ def ask(url):
     return answer
 
 def read_url(path):
-    with open(jason_filename,encoding="utf-8") as js:
+    with open(jason_filename, encoding="utf-8") as js:
         result = json.loads(js.read())
-        result = result['result']
         i = 0
-        for re in result :
-            is_or_not = ask(result[i]['url'])
-            result[i]['y/n']=is_or_not
-            i=1+i
-    
+        for re in result['result']:
+            is_or_not = ask(result['result'][i]['url'])
+            result['result'][i]['y/n'] = is_or_not
+            i = 1 + i
+
+    with open(jason_filename, "w", encoding="utf-8") as js:
+        json.dump(result, js, ensure_ascii=False)
 
 def main():
+    result = readbak.readjson()
+    wjson(result)
     read_url(jason_filename)
     print("Over")
 
