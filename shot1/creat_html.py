@@ -31,8 +31,8 @@ def html_auto():
 
     message = """
     <html>
-    <head><meta charset="GB2312"></head>
-    <body>
+    <head><meta charset="utf-8"></head>
+    <body><meta charset="utf-8">
     <p>%s</p>
     <p>%s</p>
     </body>
