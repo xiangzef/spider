@@ -66,7 +66,7 @@ def findata(res):#查找是否在线并返回数字 isonline
     soup = bs4.BeautifulSoup(res.text, "html.parser")
     content = soup.find("span", class_="nowpage")
     if content is None:
-        return -1
+        return -2
     else:
         a = re.search('.',content.string)
         is_or_not = a.string.strip().find("休息")
@@ -82,10 +82,12 @@ def get_url(url):
 
 def ask(url):
     res = get_url(url)
+    if url is "http://www.du871.com/index-show-RvDbF_2FEUODCePdj5s7nYPIpAjJo_3D.htm":
+        url = url
     num = findata(res)
     if num > 0:
         answer = "不在线"
-    elif num == 0:
+    elif num == -1:
         answer = "在线"
     else:
         answer = "错误链接"
