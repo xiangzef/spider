@@ -37,7 +37,6 @@ def html_auto():
     <p>%s</p>
     </body>
     </html>""" % (lst[0], lst[1])
-    print(message)
     f.write(message)
     # 关闭文件
     f.close()

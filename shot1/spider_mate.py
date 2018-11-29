@@ -108,8 +108,8 @@ def main():
     #读取 book 生成 结果
     #利用结果生成json
 
-    # result = readbak.readjson()
-    # wjson(result)
+    result = readbak.readjson()
+    wjson(result)
 
     #读 file\result.json 查询网页 更新 y/n 生成网页并打开
     read_url(jason_filename)
