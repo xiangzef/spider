@@ -25,19 +25,19 @@ def creat_html(from_json):
                     Online = Online + '<tr>'
                 if str(re1['name']).strip().find('milkyway')>0:
                     row_num1 += 1
-                    Online = Online + '<td><a href="'+re1['url']+'" target="_blank "> '+ re1['name']+'❤❤❤❤❤'+'</a></td>'
+                    Online = Online + '<td width=300><a href="'+re1['url']+'" target="_blank "> '+ re1['name']+'❤❤❤❤❤'+'</a></td>'
                 else:
                     row_num1 += 1
-                    Online = Online + '<td><a href="' + re1['url'] + '" target="_blank "> ' + re1['name']+'</a></td>'
+                    Online = Online + '<td width=300><a href="' + re1['url'] + '" target="_blank "> ' + re1['name']+'</a></td>'
             if str(re1['y/n']).strip().encode("utf-8") == str("不在线").encode("utf-8") and str(re1['name']) != '大香蕉直播間_全球美女直播_大香蕉伊人網_大香蕉网_伊人在线大香蕉':
                 if row_num2 == 0:
                     Offline = Offline + '<tr>'
                 if str(re1['name']).strip().find('milkyway')>0:
                     row_num2 += 1
-                    Offline = Offline + '<td><a href="' + re1['url'] + '" target="_blank "> ' + re1['name'] + '❤❤❤❤❤'+'</a></td>'
+                    Offline = Offline + '<td width=300><a href="' + re1['url'] + '" target="_blank "> ' + re1['name'] + '❤❤❤❤❤'+'</a></td>'
                 else:
                     row_num2 += 1
-                    Offline = Offline + '<td><a href="' + re1['url'] + '"target="_blank"> ' + re1['name'] +'</a></td>'
+                    Offline = Offline + '<td width=300><a href="' + re1['url'] + '"target="_blank"> ' + re1['name'] +'</a></td>'
             if row_num1 == 2:
                 row_num1 = 0
                 Online = Online + '</tr>\r\n'

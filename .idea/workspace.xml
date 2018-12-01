@@ -6,7 +6,6 @@
       <change beforePath="$PROJECT_DIR$/file/result.json" beforeDir="false" afterPath="$PROJECT_DIR$/file/result.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shot1/Book.json" beforeDir="false" afterPath="$PROJECT_DIR$/shot1/Book.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shot1/creat_html.py" beforeDir="false" afterPath="$PROJECT_DIR$/shot1/creat_html.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shot1/spider_mate.py" beforeDir="false" afterPath="$PROJECT_DIR$/shot1/spider_mate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shot1/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/shot1/test.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shot1/spider_mate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="128" column="32" lean-forward="true" selection-start-line="128" selection-start-column="32" selection-end-line="128" selection-end-column="32" />
+            <state relative-caret-position="136">
+              <caret line="127" column="11" selection-start-line="127" selection-start-column="11" selection-end-line="127" selection-end-column="11" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -42,8 +41,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shot1/creat_html.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="66" column="8" selection-start-line="65" selection-start-column="3" selection-end-line="66" selection-end-column="8" />
+            <state relative-caret-position="390">
+              <caret line="39" column="54" selection-start-line="39" selection-start-column="54" selection-end-line="39" selection-end-column="54" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -51,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shot1/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="232" selection-start-line="16" selection-start-column="232" selection-end-line="16" selection-end-column="232" />
+            <state relative-caret-position="114">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -64,7 +63,7 @@
         <entry file="file://$PROJECT_DIR$/shot1/Book.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
-              <caret line="5" column="24" selection-end-line="5173" />
+              <caret line="5" column="24" selection-end-line="5218" />
             </state>
           </provider>
         </entry>
@@ -128,10 +127,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>错误</find>
-      <find>../file/res</find>
-      <find>book</find>
-      <find>http://www.du871.com/index-show-RvDbF_2FEUODCePdj5s7nYPIpAjJo_3D.htm</find>
       <find>http://www.du871.com/index-show-GzvlVdnBsXmg36ZdOtJwvrE4aE4_3D.htm</find>
       <find>-1</find>
       <find>re</find>
@@ -157,7 +152,11 @@
       <find>&amp;nbsp;&amp;nbsp;</find>
       <find>&amp;nbsp;</find>
       <find>&lt;br/&gt;&lt;br/&gt;</find>
+      <find>&lt;br/&gt;</find>
+      <find>&lt;br</find>
+      <find>30</find>
       <find>row_numbers-len(str(re1['name']).strip().encode(&quot;utf-8&quot;))</find>
+      <find>100</find>
     </findStrings>
     <replaceStrings>
       <replace>ORCL</replace>
@@ -170,7 +169,9 @@
       <replace>bakpath</replace>
       <replace>re1[</replace>
       <replace>&lt;br/&gt;</replace>
+      <replace>100</replace>
       <replace>row_numbers-cnlen*2+enlen</replace>
+      <replace>300</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -199,15 +200,14 @@
         <option value="$PROJECT_DIR$/shot1/result.json" />
         <option value="$PROJECT_DIR$/file/result.json" />
         <option value="$PROJECT_DIR$/shot1/test.html" />
-        <option value="$PROJECT_DIR$/shot1/spider_mate.py" />
         <option value="$PROJECT_DIR$/shot1/creat_html.py" />
+        <option value="$PROJECT_DIR$/shot1/spider_mate.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
-    <option name="width" value="1128" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1680" />
+    <option name="width" value="890" />
     <option name="height" value="1404" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -525,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543654179918</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="调整html格式">
+      <created>1543667034692</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1543667034693</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -541,15 +548,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1721" height="944" extended-state="6" />
+    <frame x="1120" y="0" width="593" height="936" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14243324" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.4308797" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32881773" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26477832" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26741293" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36083743" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -790,7 +797,7 @@
     <entry file="file://$PROJECT_DIR$/shot1/Book.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="5" column="24" selection-end-line="5173" />
+          <caret line="5" column="24" selection-end-line="5218" />
         </state>
       </provider>
     </entry>
@@ -839,10 +846,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/shot1/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/shot1/creat_html.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="66" column="8" selection-start-line="65" selection-start-column="3" selection-end-line="66" selection-end-column="8" />
+        <state relative-caret-position="390">
+          <caret line="39" column="54" selection-start-line="39" selection-start-column="54" selection-end-line="39" selection-end-column="54" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
@@ -851,18 +865,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shot1/spider_mate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="128" column="32" lean-forward="true" selection-start-line="128" selection-start-column="32" selection-end-line="128" selection-end-column="32" />
+        <state relative-caret-position="136">
+          <caret line="127" column="11" selection-start-line="127" selection-start-column="11" selection-end-line="127" selection-end-column="11" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shot1/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="232" selection-start-line="16" selection-start-column="232" selection-end-line="16" selection-end-column="232" />
         </state>
       </provider>
     </entry>
