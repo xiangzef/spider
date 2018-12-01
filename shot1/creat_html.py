@@ -4,11 +4,13 @@ import webbrowser
 # 命名生成的html
 GEN_HTML = "test.html"
 json_path ="../file/result.json"
+chromePath = r'C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe'  # 例如我的：C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe
+
 
 # 打开文件，准备写入
 def creat_html(from_json):
-    Online = 'Online:'+'<br />\r\n'
-    Offline = 'Offline:'+'<br />\r\n'
+    Online = '<body><meta charset="utf-8"><strong><font size="4">Online:-------------------------------'+'<br /></strong>\r\n</body>'
+    Offline = '<body><meta charset="utf-8"><strong><font size="4">Offline:-------------------------------'+'<br /></strong>\r\n</body>'
     with open (from_json,"r",encoding="utf-8") as js:
         res = json.loads(js.read())
         i = 0
@@ -34,14 +36,16 @@ def html_auto():
     <html>
     <head><meta charset="utf-8"></head>
     <body><meta charset="utf-8">
-    <p>%s</p>
-    <p>%s</p>
+    <p><font size="3">%s</p>
+    <p><font size="4">%s</p>
     </body>
     </html>""" % (lst[0], lst[1])
     f.write(message)
     # 关闭文件
     f.close()
     # 运行完自动在网页中显示
+    webbrowser.register('chrome', None, webbrowser.BackgroundBrowser(chromePath))
+    webbrowser.get('chrome').open_new_tab(GEN_HTML)
     # webbrowser.open(GEN_HTML, new=1)
 
 if __name__ == '__main__':

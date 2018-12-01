@@ -122,13 +122,13 @@ def read_url(path):
 def main():
     #读取 book 生成 结果
     #利用结果生成json
-    readbak.readbak()
-    result = readbak.readjson()
-    wjson(result, jason_filename)
+    # readbak.readbak()
+    # result = readbak.readjson()
+    # wjson(result, jason_filename)
     #读 file\result.json 查询网页 更新 y/n 生成网页并打开
-    read_url(jason_filename)
-    print("Over")
+    # read_url(jason_filename)
     h5.html_auto()
+    print("Over")
 
 
 if __name__ == '__main__':

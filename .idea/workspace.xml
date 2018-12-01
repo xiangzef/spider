@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2204d5d-85b8-446f-9419-c340abd17cb6" name="Default Changelist" comment="新增h5生成方法&#10;自动生成a标签 &#10;&#10;bug:&#10;循环查询了一个url 已解决&#10;&#10;排除非需求url 与返回none查询结果的报错问题">
-      <change afterPath="$PROJECT_DIR$/shot1/setup.py" afterDir="false" />
+    <list default="true" id="d2204d5d-85b8-446f-9419-c340abd17cb6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file/result.json" beforeDir="false" afterPath="$PROJECT_DIR$/file/result.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shot1/Book.json" beforeDir="false" afterPath="$PROJECT_DIR$/shot1/Book.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shot1/Bookmarks.bak" beforeDir="false" afterPath="$PROJECT_DIR$/shot1/Bookmarks.bak" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shot1/Bookmarks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/shot1/Bookmarks.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shot1/creat_html.py" beforeDir="false" afterPath="$PROJECT_DIR$/shot1/creat_html.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shot1/readbak.py" beforeDir="false" afterPath="$PROJECT_DIR$/shot1/readbak.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shot1/result.json" beforeDir="false" afterPath="$PROJECT_DIR$/shot1/result.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shot1/spider_mate.py" beforeDir="false" afterPath="$PROJECT_DIR$/shot1/spider_mate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shot1/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/shot1/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pip-selfcheck.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,11 +25,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shot1/spider_mate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+            <state relative-caret-position="503">
+              <caret line="129" column="18" lean-forward="true" selection-start-line="129" selection-start-column="18" selection-end-line="129" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/shot1/creat_html.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="376">
+              <caret line="47" column="50" selection-start-line="47" selection-start-column="50" selection-end-line="47" selection-end-column="50" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -45,7 +52,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shot1/readbak.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-342">
+            <state relative-caret-position="57">
               <caret line="3" column="98" selection-start-line="3" selection-start-column="98" selection-end-line="3" selection-end-column="98" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -55,22 +62,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shot1/creat_html.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shot1/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="40" column="66" selection-start-line="40" selection-start-column="66" selection-end-line="40" selection-end-column="66" />
+            <state relative-caret-position="133">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="38" selection-end-column="111" />
             </state>
           </provider>
         </entry>
@@ -88,7 +83,7 @@
         <entry file="file://$PROJECT_DIR$/file/result.json">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="28564" selection-start-column="28564" selection-end-column="28564" />
+              <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -166,8 +161,9 @@
       <find>wjson</find>
       <find>https://ht.acgbuster.com/</find>
       <find>{&quot;result&quot;: [{&quot;name&quot;: &quot;大香蕉直播間_全球美女直播_大香蕉伊人網_大香蕉网_伊人在线大香蕉&quot;, &quot;url&quot;: &quot;https://ht.acgbuster.com/&quot;, &quot;y/n&quot;: &quot;在线&quot;}]}</find>
-      <find>findata</find>
+      <find>milky</find>
       <find>http://www.du871.com/index-show-OTx_2BRGezSURjhsrh3JPcP6aJ_2FMQ_3D.htm</find>
+      <find>findata</find>
     </findStrings>
     <replaceStrings>
       <replace>ORCL</replace>
@@ -194,13 +190,13 @@
         <option value="$PROJECT_DIR$/shot1/ergodicjson.py" />
         <option value="$PROJECT_DIR$/shot1/test.py" />
         <option value="$PROJECT_DIR$/shot1/write_xlsx.py" />
-        <option value="$PROJECT_DIR$/shot1/creat_html.py" />
         <option value="$PROJECT_DIR$/shot1/py_to_exe.py" />
         <option value="$PROJECT_DIR$/shot1/setup.py" />
         <option value="$PROJECT_DIR$/shot1/readbak.py" />
         <option value="$PROJECT_DIR$/shot1/result.json" />
         <option value="$PROJECT_DIR$/file/result.json" />
         <option value="$PROJECT_DIR$/shot1/spider_mate.py" />
+        <option value="$PROJECT_DIR$/shot1/creat_html.py" />
       </list>
     </option>
   </component>
@@ -504,7 +500,21 @@
       <option name="project" value="LOCAL" />
       <updated>1543505529596</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="新增h5生成方法&#10;自动生成a标签 &#10;&#10;bug:&#10;循环查询了一个url 已解决&#10;&#10;排除非需求url 与返回none查询结果的报错问题">
+      <created>1543651720341</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1543651720341</updated>
+    </task>
+    <task id="LOCAL-00011" summary="解决网页无响应的报错问题&#10;删除无用代码&#10;全部关联全局变量地址字符串&#10;排除不是du871的url&#10;修正y/n修改逻辑">
+      <created>1543653364410</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1543653364410</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -523,12 +533,12 @@
     <frame x="-7" y="-7" width="1721" height="944" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14243324" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14243324" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32881773" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26477832" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26477832" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30665025" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -553,10 +563,11 @@
     <MESSAGE value="新增两个自动生成方法" />
     <MESSAGE value="新增h5生成方法" />
     <MESSAGE value="新增h5生成方法&#10;自动生成a标签 &#10;&#10;bug:&#10;循环查询了一个url" />
-    <MESSAGE value="新增h5生成方法&#10;自动生成a标签 &#10;&#10;bug:&#10;循环查询了一个url 已解决&#10;&#10;排除非需求url 与返回none查询结果的报错问题" />
     <MESSAGE value="修复全部在offline的问题  由于find（）函数没有找到字符串后返回的是-1 &#10;我在写非法url的时候 返回值给了-1所以全部在线的url都被屏蔽了&#10;&#10;bug:&#10;循环查询了一个url 已解决&#10;&#10;排除非需求url 与返回none查询结果的报错问题" />
     <MESSAGE value="修正家里pc上chrome等浏览器html汉字乱码问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="修正家里pc上chrome等浏览器html汉字乱码问题" />
+    <MESSAGE value="新增h5生成方法&#10;自动生成a标签 &#10;&#10;bug:&#10;循环查询了一个url 已解决&#10;&#10;排除非需求url 与返回none查询结果的报错问题" />
+    <MESSAGE value="解决网页无响应的报错问题&#10;删除无用代码&#10;全部关联全局变量地址字符串&#10;排除不是du871的url&#10;修正y/n修改逻辑" />
+    <option name="LAST_COMMIT_MESSAGE" value="解决网页无响应的报错问题&#10;删除无用代码&#10;全部关联全局变量地址字符串&#10;排除不是du871的url&#10;修正y/n修改逻辑" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -593,11 +604,6 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/shot1/spider_mate.py</url>
-          <line>128</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/shot1/spider_mate.py</url>
           <line>114</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
@@ -605,6 +611,11 @@
           <url>file://$PROJECT_DIR$/shot1/spider_mate.py</url>
           <line>115</line>
           <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/shot1/spider_mate.py</url>
+          <line>129</line>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -751,16 +762,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shot1/creat_html.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shot1/res.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
@@ -802,20 +803,13 @@
     <entry file="file://$PROJECT_DIR$/file/result.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="28564" selection-start-column="28564" selection-end-column="28564" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shot1/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="40" column="66" selection-start-line="40" selection-start-column="66" selection-end-line="40" selection-end-column="66" />
+          <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shot1/readbak.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-342">
+        <state relative-caret-position="57">
           <caret line="3" column="98" selection-start-line="3" selection-start-column="98" selection-end-line="3" selection-end-column="98" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
@@ -823,10 +817,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/shot1/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="38" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/shot1/spider_mate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        <state relative-caret-position="503">
+          <caret line="129" column="18" lean-forward="true" selection-start-line="129" selection-start-column="18" selection-end-line="129" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shot1/creat_html.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="47" column="50" selection-start-line="47" selection-start-column="50" selection-end-line="47" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
