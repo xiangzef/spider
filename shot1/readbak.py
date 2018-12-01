@@ -1,10 +1,13 @@
 import bs4
 import json
+
+bakpath = 'C:\\Users\\Administrator\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Bookmarks'
+
 def writbak():
     #输入文件
-    f = open(r'Bookmarks.bak' ,encoding='UTF-8')
+    f = open(bakpath ,'r',encoding='UTF-8')
     #输出文件
-    fw = open(r'Bookmarks.txt','w', encoding='UTF-8')
+    fw = open(r'book.json','w', encoding='UTF-8')
     #按行读出所有文本
     lines = f.readlines()
     num = -1
@@ -35,8 +38,7 @@ def readjson():
         result = [(item.get('name', 'NA'), item.get('url', 'NA')) for item in fenal_json['children']]
     return result
 
-def main():
+def readbak():
+    writbak()
     readjson()
 
-if __name__ == '__main__':
-    main()

@@ -41,7 +41,7 @@ def html_auto():
     # 关闭文件
     f.close()
     # 运行完自动在网页中显示
-    webbrowser.open(GEN_HTML, new=1)
+    # webbrowser.open(GEN_HTML, new=1)
 
 if __name__ == '__main__':
     main()

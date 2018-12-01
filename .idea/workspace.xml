@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2204d5d-85b8-446f-9419-c340abd17cb6" name="Default Changelist" comment="新增h5生成方法&#10;自动生成a标签 &#10;&#10;bug:&#10;循环查询了一个url 已解决&#10;&#10;排除非需求url 与返回none查询结果的报错问题">
+      <change afterPath="$PROJECT_DIR$/shot1/setup.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/file/result.json" beforeDir="false" afterPath="$PROJECT_DIR$/file/result.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shot1/Book.json" beforeDir="false" afterPath="$PROJECT_DIR$/shot1/Book.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shot1/Bookmarks.bak" beforeDir="false" afterPath="$PROJECT_DIR$/shot1/Bookmarks.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shot1/Bookmarks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/shot1/Bookmarks.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shot1/creat_html.py" beforeDir="false" afterPath="$PROJECT_DIR$/shot1/creat_html.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shot1/readbak.py" beforeDir="false" afterPath="$PROJECT_DIR$/shot1/readbak.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shot1/result.json" beforeDir="false" afterPath="$PROJECT_DIR$/shot1/result.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shot1/spider_mate.py" beforeDir="false" afterPath="$PROJECT_DIR$/shot1/spider_mate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shot1/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/shot1/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pip-selfcheck.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,64 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shot1/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shot1/spider_mate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-50">
-              <caret line="68" column="17" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/file/result.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-11">
-              <caret line="50" column="73" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shot1/ergodicjson.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shot1/write_xlsx.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-18">
-              <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shot1/test.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shot1/result.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="120" selection-start-column="120" selection-end-column="120" />
+            <state relative-caret-position="114">
+              <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -90,8 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shot1/readbak.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="30" column="12" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="12" />
+            <state relative-caret-position="-342">
+              <caret line="3" column="98" selection-start-line="3" selection-start-column="98" selection-end-line="3" selection-end-column="98" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -100,10 +55,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shot1/connect.py">
+        <entry file="file://$PROJECT_DIR$/shot1/creat_html.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+            <state relative-caret-position="410">
+              <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shot1/test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="40" column="66" selection-start-line="40" selection-start-column="66" selection-end-line="40" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -112,7 +79,55 @@
         <entry file="file://$PROJECT_DIR$/shot1/Book.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
-              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+              <caret line="5" column="24" selection-end-line="5173" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/file/result.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="28564" selection-start-column="28564" selection-end-column="28564" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shot1/setup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="e#13#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shot1/result.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="91" selection-end-column="108" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shot1/res.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="53" column="33" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shot1/Bookmarks.bak">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="1057" column="39" selection-start-line="1057" selection-start-column="34" selection-end-line="1057" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -133,7 +148,6 @@
       <find>requests.get</find>
       <find>que</find>
       <find>未知&quot;}1</find>
-      <find>findata</find>
       <find>JW9fJn5wjN0clsICjnc1P8GfiJU_3D</find>
       <find>日本</find>
       <find>错误</find>
@@ -141,9 +155,23 @@
       <find>book</find>
       <find>http://www.du871.com/index-show-RvDbF_2FEUODCePdj5s7nYPIpAjJo_3D.htm</find>
       <find>http://www.du871.com/index-show-GzvlVdnBsXmg36ZdOtJwvrE4aE4_3D.htm</find>
+      <find>-1</find>
+      <find>re</find>
+      <find>817</find>
+      <find>du</find>
+      <find>'Bookmarks.bak'</find>
+      <find>Book.json</find>
+      <find>Bookmarks.txt</find>
+      <find>jason_filename</find>
+      <find>wjson</find>
+      <find>https://ht.acgbuster.com/</find>
+      <find>{&quot;result&quot;: [{&quot;name&quot;: &quot;大香蕉直播間_全球美女直播_大香蕉伊人網_大香蕉网_伊人在线大香蕉&quot;, &quot;url&quot;: &quot;https://ht.acgbuster.com/&quot;, &quot;y/n&quot;: &quot;在线&quot;}]}</find>
+      <find>findata</find>
+      <find>http://www.du871.com/index-show-OTx_2BRGezSURjhsrh3JPcP6aJ_2FMQ_3D.htm</find>
     </findStrings>
     <replaceStrings>
       <replace>ORCL</replace>
+      <replace>bakpath</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -162,23 +190,25 @@
         <option value="$PROJECT_DIR$/shot1/connect.py" />
         <option value="$PROJECT_DIR$/shot1/Bookmarks.txt" />
         <option value="$PROJECT_DIR$/shot1/Book.json" />
-        <option value="$PROJECT_DIR$/shot1/readbak.py" />
-        <option value="$PROJECT_DIR$/shot1/result.json" />
-        <option value="$PROJECT_DIR$/file/result.json" />
-        <option value="$PROJECT_DIR$/shot1/creat_html.py" />
         <option value="$PROJECT_DIR$/shot1/ergoticjson.py" />
         <option value="$PROJECT_DIR$/shot1/ergodicjson.py" />
         <option value="$PROJECT_DIR$/shot1/test.py" />
         <option value="$PROJECT_DIR$/shot1/write_xlsx.py" />
+        <option value="$PROJECT_DIR$/shot1/creat_html.py" />
+        <option value="$PROJECT_DIR$/shot1/py_to_exe.py" />
+        <option value="$PROJECT_DIR$/shot1/setup.py" />
+        <option value="$PROJECT_DIR$/shot1/readbak.py" />
+        <option value="$PROJECT_DIR$/shot1/result.json" />
+        <option value="$PROJECT_DIR$/file/result.json" />
         <option value="$PROJECT_DIR$/shot1/spider_mate.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="327" />
-    <option name="y" value="-8" />
-    <option name="width" value="996" />
-    <option name="height" value="561" />
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="1128" />
+    <option name="height" value="1404" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -218,7 +248,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.python" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyDebuggerOptionsProvider">
     <option name="mySupportQtDebugging" value="false" />
@@ -287,7 +317,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ergodicjson" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="py_to_exe" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -299,8 +329,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/shot1/ergodicjson.py" />
+      <option name="SCRIPT_NAME" value="F:\spider\shot1\setup.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -331,7 +360,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="spider_mate" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="spider_mate" type="PythonConfigurationType" factoryName="Python">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -378,18 +407,17 @@
     <list>
       <item itemvalue="Python.Unnamed" />
       <item itemvalue="Python.spider_mate" />
-      <item itemvalue="Python.ergodicjson" />
       <item itemvalue="Python.write_xlsx" />
       <item itemvalue="Python.readbak" />
       <item itemvalue="Python.creat_html" />
+      <item itemvalue="Python.py_to_exe" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.spider_mate" />
+        <item itemvalue="Python.readbak" />
+        <item itemvalue="Python.py_to_exe" />
         <item itemvalue="Python.creat_html" />
         <item itemvalue="Python.write_xlsx" />
-        <item itemvalue="Python.ergodicjson" />
-        <item itemvalue="Python.readbak" />
       </list>
     </recent_temporary>
   </component>
@@ -462,7 +490,21 @@
       <option name="project" value="LOCAL" />
       <updated>1543411200258</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="修复全部在offline的问题  由于find（）函数没有找到字符串后返回的是-1 &#10;我在写非法url的时候 返回值给了-1所以全部在线的url都被屏蔽了&#10;&#10;bug:&#10;循环查询了一个url 已解决&#10;&#10;排除非需求url 与返回none查询结果的报错问题">
+      <created>1543504965828</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1543504965828</updated>
+    </task>
+    <task id="LOCAL-00009" summary="修正家里pc上chrome等浏览器html汉字乱码问题">
+      <created>1543505529596</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1543505529596</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -481,11 +523,11 @@
     <frame x="-7" y="-7" width="1721" height="944" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14302671" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14243324" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32881773" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26477832" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30665025" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -512,7 +554,9 @@
     <MESSAGE value="新增h5生成方法" />
     <MESSAGE value="新增h5生成方法&#10;自动生成a标签 &#10;&#10;bug:&#10;循环查询了一个url" />
     <MESSAGE value="新增h5生成方法&#10;自动生成a标签 &#10;&#10;bug:&#10;循环查询了一个url 已解决&#10;&#10;排除非需求url 与返回none查询结果的报错问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增h5生成方法&#10;自动生成a标签 &#10;&#10;bug:&#10;循环查询了一个url 已解决&#10;&#10;排除非需求url 与返回none查询结果的报错问题" />
+    <MESSAGE value="修复全部在offline的问题  由于find（）函数没有找到字符串后返回的是-1 &#10;我在写非法url的时候 返回值给了-1所以全部在线的url都被屏蔽了&#10;&#10;bug:&#10;循环查询了一个url 已解决&#10;&#10;排除非需求url 与返回none查询结果的报错问题" />
+    <MESSAGE value="修正家里pc上chrome等浏览器html汉字乱码问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="修正家里pc上chrome等浏览器html汉字乱码问题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -549,72 +593,84 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/shot1/spider_mate.py</url>
-          <line>112</line>
-          <option name="timeStamp" value="8" />
+          <line>128</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/shot1/spider_mate.py</url>
-          <line>113</line>
-          <option name="timeStamp" value="9" />
+          <line>114</line>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/shot1/spider_mate.py</url>
-          <line>116</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/shot1/spider_mate.py</url>
-          <line>84</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/shot1/spider_mate.py</url>
-          <line>65</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/shot1/spider_mate.py</url>
-          <line>66</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/shot1/spider_mate.py</url>
-          <line>67</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/shot1/spider_mate.py</url>
-          <line>68</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/shot1/spider_mate.py</url>
-          <line>70</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/shot1/spider_mate.py</url>
-          <line>71</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/shot1/spider_mate.py</url>
-          <line>72</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/shot1/spider_mate.py</url>
-          <line>89</line>
-          <option name="timeStamp" value="21" />
+          <line>115</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="re.findall(r'[0-9a-zA-z_]+',str(answer_name[1]).strip().strip('\n'))[0]" language="Python" />
+        <watch expression="result['result'][i]['name']" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>re.findall(r'[0-9a-zA-z_]+',str(answer_name[1]).strip().strip('\n'))[0]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>re.findall(r'[0-9a-zA-z_]+',str(answer_name[1]).strip().strip('\n'))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>str(re.findall(r'[0-9a-zA-z_]+',str(answer_name[1]).strip().strip('\n')))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>re.findall(r'(0-9a-zA-z_)+',str(answer_name[1]).strip().strip('\n'))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>re.findall(r'[0-9a-zA-z_]+',str(answer_name[1]).strip().strip('\n'))[1]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>result['result'][i]['name']</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>re.findall(r'0-9',str(answer_name[1]).strip().strip('\n'))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>re.findall(r'[0-9]',str(answer_name[1]).strip().strip('\n'))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>re.findall(r'[a-z0-9]',str(answer_name[1]).strip().strip('\n'))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>re.findall(r'[a-zA-Z0-9]',str(answer_name[1]).strip().strip('\n'))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/setup.py" />
-    <entry file="file://$PROJECT_DIR$/shot1/Book.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
@@ -636,10 +692,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shot1/Bookmarks.txt">
+    <entry file="file://$PROJECT_DIR$/shot1/connect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shot1/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shot1/write_xlsx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shot1/Book.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shot1/ergodicjson.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/bs4/element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="970" selection-start-line="970" selection-end-line="970" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/re.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="182" selection-start-line="182" selection-end-line="182" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shot1/Bookmarks.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="83" column="23" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="47" selection-start-column="47" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shot1/creat_html.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -650,88 +768,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shot1/connect.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file/test.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shot1/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shot1/Book.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <caret line="5" column="24" selection-end-line="5173" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shot1/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#13#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shot1/Bookmarks.bak">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="1057" column="39" selection-start-line="1057" selection-start-column="34" selection-end-line="1057" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shot1/result.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="120" selection-start-column="120" selection-end-column="120" />
+          <caret column="91" selection-end-column="108" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shot1/creat_html.py">
+    <entry file="file://$PROJECT_DIR$/file/result.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="28564" selection-start-column="28564" selection-end-column="28564" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shot1/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="40" column="66" selection-start-line="40" selection-start-column="66" selection-end-line="40" selection-end-column="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shot1/readbak.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="30" column="12" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="12" />
+        <state relative-caret-position="-342">
+          <caret line="3" column="98" selection-start-line="3" selection-start-column="98" selection-end-line="3" selection-end-column="98" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shot1/write_xlsx.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18">
-          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shot1/test.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shot1/ergodicjson.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file/result.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="50" column="73" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shot1/spider_mate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-50">
-          <caret line="68" column="17" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="114">
+          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
         </state>
       </provider>
     </entry>
