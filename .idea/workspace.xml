@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2204d5d-85b8-446f-9419-c340abd17cb6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/shot1/tools/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shot1/tools/is_old.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/file/result.json" beforeDir="false" afterPath="$PROJECT_DIR$/file/result.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shot1/Book.json" beforeDir="false" afterPath="$PROJECT_DIR$/shot1/Book.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shot1/creat_html.py" beforeDir="false" afterPath="$PROJECT_DIR$/shot1/creat_html.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shot1/spider_mate.py" beforeDir="false" afterPath="$PROJECT_DIR$/shot1/spider_mate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shot1/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/shot1/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shot1/write_xlsx.py" beforeDir="false" afterPath="$PROJECT_DIR$/shot1/write_xlsx.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,10 +32,36 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shot1/spider_mate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="127" column="11" selection-start-line="127" selection-start-column="11" selection-end-line="127" selection-end-column="11" />
+            <state relative-caret-position="1482">
+              <caret line="132" column="15" lean-forward="true" selection-start-line="132" selection-start-column="15" selection-end-line="132" selection-end-column="15" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shot1/tools/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shot1/tools/is_old.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shot1/write_xlsx.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <marker date="1543674694240" expanded="true" signature="536:721" ph="..." />
               </folding>
             </state>
           </provider>
@@ -53,38 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shot1/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shot1/Book.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="24" selection-end-line="5218" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/file/result.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="38" selection-start-column="38" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shot1/setup.py">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-              <folding>
-                <element signature="e#13#45#0" expanded="true" />
-              </folding>
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -152,11 +151,11 @@
       <find>&amp;nbsp;&amp;nbsp;</find>
       <find>&amp;nbsp;</find>
       <find>&lt;br/&gt;&lt;br/&gt;</find>
-      <find>&lt;br/&gt;</find>
       <find>&lt;br</find>
       <find>30</find>
-      <find>row_numbers-len(str(re1['name']).strip().encode(&quot;utf-8&quot;))</find>
+      <find>&lt;br/&gt;</find>
       <find>100</find>
+      <find>row_numbers-len(str(re1['name']).strip().encode(&quot;utf-8&quot;))</find>
     </findStrings>
     <replaceStrings>
       <replace>ORCL</replace>
@@ -170,8 +169,8 @@
       <replace>re1[</replace>
       <replace>&lt;br/&gt;</replace>
       <replace>100</replace>
-      <replace>row_numbers-cnlen*2+enlen</replace>
       <replace>300</replace>
+      <replace>row_numbers-cnlen*2+enlen</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -193,7 +192,6 @@
         <option value="$PROJECT_DIR$/shot1/ergoticjson.py" />
         <option value="$PROJECT_DIR$/shot1/ergodicjson.py" />
         <option value="$PROJECT_DIR$/shot1/test.py" />
-        <option value="$PROJECT_DIR$/shot1/write_xlsx.py" />
         <option value="$PROJECT_DIR$/shot1/py_to_exe.py" />
         <option value="$PROJECT_DIR$/shot1/setup.py" />
         <option value="$PROJECT_DIR$/shot1/readbak.py" />
@@ -201,13 +199,16 @@
         <option value="$PROJECT_DIR$/file/result.json" />
         <option value="$PROJECT_DIR$/shot1/test.html" />
         <option value="$PROJECT_DIR$/shot1/creat_html.py" />
+        <option value="$PROJECT_DIR$/shot1/write_xlsx.py" />
+        <option value="$PROJECT_DIR$/shot1/tools/is_odd.py" />
+        <option value="$PROJECT_DIR$/shot1/tools/__init__.py" />
         <option value="$PROJECT_DIR$/shot1/spider_mate.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1680" />
-    <option name="width" value="890" />
+    <option name="x" value="1270" />
+    <option name="width" value="1301" />
     <option name="height" value="1404" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -248,7 +249,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="PyDebuggerOptionsProvider">
     <option name="mySupportQtDebugging" value="false" />
@@ -414,10 +415,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.write_xlsx" />
         <item itemvalue="Python.creat_html" />
         <item itemvalue="Python.readbak" />
         <item itemvalue="Python.py_to_exe" />
-        <item itemvalue="Python.write_xlsx" />
       </list>
     </recent_temporary>
   </component>
@@ -532,7 +533,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543667034693</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="调整html格式">
+      <created>1543671526761</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1543671526761</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -548,16 +556,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1120" y="0" width="593" height="936" extended-state="0" />
+    <frame x="847" y="0" width="867" height="936" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.4308797" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28880867" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32881773" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26741293" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.36083743" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36069652" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298731" />
@@ -622,34 +630,50 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/shot1/creat_html.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/shot1/write_xlsx.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/shot1/spider_mate.py</url>
-          <line>114</line>
-          <option name="timeStamp" value="28" />
+          <line>116</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/shot1/spider_mate.py</url>
+          <line>134</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/shot1/spider_mate.py</url>
+          <line>133</line>
+          <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/shot1/spider_mate.py</url>
           <line>115</line>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/shot1/creat_html.py</url>
-          <line>30</line>
-          <option name="timeStamp" value="38" />
+          <option name="timeStamp" value="50" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="len(re.findall(r'[\u4e00-\u9fa5]{0,}$', re1['name'])[0])" language="Python" />
-        <watch expression="re.findall(r'[0-9a-zA-z_]+', re1['name'])" language="Python" />
-        <watch expression="len(re.findall(r'[0-9a-zA-z_]+', re1['name'])[0])" language="Python" />
-        <watch expression="re.findall(r'[0-9a-zA-z_]+', re1['name']) == []" language="Python" />
-        <watch expression="row_numbers-cnlen*2-enlen" language="Python" />
+        <watch expression="rate" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>rate</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>row_numbers-cnlen*2-enlen</expression-string>
         <language-id>Python</language-id>
@@ -695,11 +719,6 @@
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>re.findall(r'[\u4e00-\u9fa5]{0,}$', re1['name'])[0]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
@@ -736,13 +755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shot1/write_xlsx.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -839,17 +851,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-384712336/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="289" column="4" selection-start-line="289" selection-start-column="4" selection-end-line="289" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shot1/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="38">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -863,10 +868,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/shot1/tools/tools/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-384712336/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="289" column="4" selection-start-line="289" selection-start-column="4" selection-end-line="289" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shot1/write_xlsx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <marker date="1543674694240" expanded="true" signature="536:721" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shot1/tools/is_old.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shot1/tools/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/shot1/spider_mate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="127" column="11" selection-start-line="127" selection-start-column="11" selection-end-line="127" selection-end-column="11" />
+        <state relative-caret-position="1482">
+          <caret line="132" column="15" lean-forward="true" selection-start-line="132" selection-start-column="15" selection-end-line="132" selection-end-column="15" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
