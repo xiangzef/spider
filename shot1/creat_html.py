@@ -13,15 +13,16 @@ def creat_html(from_json):
         res = json.loads(js.read())
         i = 0
         for re in res['result']:
-            # if str(res['result'][i]['y/n']).strip().encode("utf-8") == str("在线").encode("utf-8"):
-            #     Online = Online + res['result'][i]['name']+'<br />'+'<br />'+res['result'][i]['url']+res['result'][i]['y/n']+'<br /><br />\r\n'
-            # if str(res['result'][i]['y/n']).strip().encode("utf-8") == str("不在线").encode("utf-8"):
-            #     Offline = Offline + res['result'][i]['name']+'<br />'+res['result'][i]['url']+res['result'][i]['y/n']+'<br /><br />\r\n'
             if str(res['result'][i]['y/n']).strip().encode("utf-8") == str("在线").encode("utf-8"):
-
-                Online = Online + '<a href="'+res['result'][i]['url']+'" target="_blank "> '+ res['result'][i]['name']+'</a><br/><br/>\r\n'
+                if str(re['name']).strip().find('milkyway')>0:
+                    Online = Online + '<a href="'+res['result'][i]['url']+'" target="_blank "> '+ res['result'][i]['name']+'❤❤❤❤❤'+'</a><br/><br/>\r\n'
+                else:
+                    Online = Online + '<a href="' + res['result'][i]['url'] + '" target="_blank "> ' + res['result'][i]['name'] + '</a><br/><br/>\r\n'
             if str(res['result'][i]['y/n']).strip().encode("utf-8") == str("不在线").encode("utf-8"):
-                Offline = Offline + '<a href="' + res['result'][i]['url'] + '"target="_blank"> ' + res['result'][i]['name'] + '</a><br/><br/>\r\n'
+                if str(re['name']).strip().find('milkyway')>0:
+                    Offline = Offline + '<a href="' + res['result'][i]['url'] + '" target="_blank "> ' + res['result'][i]['name'] + '❤❤❤❤❤' + '</a><br/><br/>\r\n'
+                else:
+                    Offline = Offline + '<a href="' + res['result'][i]['url'] + '"target="_blank"> ' + res['result'][i]['name'] + '</a><br/><br/>\r\n'
             i = 1 + i
     return Online, Offline
 
