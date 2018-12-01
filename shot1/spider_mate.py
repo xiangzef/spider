@@ -113,21 +113,27 @@ def read_url(path):
                 answer_name = ask(result['result'][i]['url'])
             result['result'][i]['y/n'] = answer_name[0]
             if str(answer_name[0]).strip() == '在线' and str(result['result'][i]['name']).strip() == '大香蕉直播間_全球美女直播_大香蕉伊人網_大香蕉网_伊人在线大香蕉' :
-                result['result'][i]['name'] = re.findall(r'[0-9a-zA-z_]+',str(answer_name[1]).strip().strip('\n'))[0]#正则表达式匹配大小写字母数字和下划线
+                result['result'][i]['name'] = re.findall(r'[0-9a-zA-z_]+', str(answer_name[1]).strip().strip('\n'))[0]#正则表达式匹配大小写字母数字和下划线
             i = 1 + i
 
     with open(path, "w", encoding="utf-8") as js:
         json.dump(result, js, ensure_ascii=False)
+def execute(parameter):
+    if parameter == 1:
+        # 读取 book 生成 结果
+        # 利用结果生成json
+        readbak.readbak()
+        result = readbak.readjson()
+        wjson(result, jason_filename)
+        # 读 file\result.json 查询网页 更新 y/n 生成网页并打开
+        read_url(jason_filename)
+        h5.html_auto()
+    else:
+        # 只生产html文件
+        h5.html_auto()
 
 def main():
-    #读取 book 生成 结果
-    #利用结果生成json
-    # readbak.readbak()
-    # result = readbak.readjson()
-    # wjson(result, jason_filename)
-    #读 file\result.json 查询网页 更新 y/n 生成网页并打开
-    # read_url(jason_filename)
-    h5.html_auto()
+    execute(1)
     print("Over")
 
 
