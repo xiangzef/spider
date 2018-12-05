@@ -4,7 +4,7 @@ import bs4
 import cx_Oracle       #引用模块cx_Oracle
 import readbak
 #from tools.is_old import is_old
-
+import time
 # import openpyxl
 import numpy
 import re
@@ -30,7 +30,7 @@ def closORCL():
     return 1
 
 
-def wjson(results,path):
+def wjson(results, path):
     with open(path, "w", encoding="utf-8") as js:
         js.write('{"result":[')
         i = 0
@@ -112,12 +112,12 @@ def read_url(path):
         result = json.loads(js.read())
         i = 0
         rate = round(len(result['result']) / 7)
-        lst = numpy.arange(0, len(result['result']), 1)
+        lst = numpy.arange(1, len(result['result']), 1)
         new_list = list(newlist(lst))
         for res in result['result']:
             if i in new_list:
                 print('{:.2%}'.format(i / len(result['result'])), end='■')
-            if i in numpy.arange(0, len(result['result']), 3):
+            if i in numpy.arange(1, len(result['result']), 3):
                 print('', end='■')
             if res['y/n'] is not "错误链接":
                 answer_name = ask(result['result'][i]['url'])
@@ -145,7 +145,7 @@ def execute(parameter):
         # 读取 book 生成 结果
         # 利用结果生成json
         readbak.readbak()
-        result = readbak.readjson()
+        readbak.readjson()
         # 读 file\result.json 查询网页 更新 y/n 生成网页并打开
         read_url(jason_filename)
         h5.html_auto()
@@ -154,8 +154,10 @@ def execute(parameter):
         h5.html_auto()
 
 def main():
+    print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time())))
     execute(1)
-    print("Over")
+    print("100%")
+    print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time())))
 
 
 if __name__ == '__main__':
