@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2204d5d-85b8-446f-9419-c340abd17cb6" name="Default Changelist" comment="增加进度条打印">
-      <change afterPath="$PROJECT_DIR$/shot1/MyThreat.py" afterDir="false" />
+    <list default="true" id="d2204d5d-85b8-446f-9419-c340abd17cb6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/file/result.json" beforeDir="false" afterPath="$PROJECT_DIR$/file/result.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shot1/Book.json" beforeDir="false" afterPath="$PROJECT_DIR$/shot1/Book.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shot1/readbak.py" beforeDir="false" afterPath="$PROJECT_DIR$/shot1/readbak.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shot1/spider_mate.py" beforeDir="false" afterPath="$PROJECT_DIR$/shot1/spider_mate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shot1/MyThreat.py" beforeDir="false" afterPath="$PROJECT_DIR$/shot1/MyThreat.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shot1/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/shot1/test.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shot1/spider_mate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="119" column="34" lean-forward="true" selection-start-line="119" selection-start-column="34" selection-end-line="119" selection-end-column="34" />
+            <state relative-caret-position="72">
+              <caret line="131" column="33" lean-forward="true" selection-start-line="131" selection-start-column="33" selection-end-line="131" selection-end-column="33" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -52,7 +49,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shot1/readbak.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
+            <state relative-caret-position="243">
               <caret line="35" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -73,7 +70,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shot1/creat_html.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
+            <state relative-caret-position="-555">
               <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
@@ -82,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shot1/MyThreat.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="44" column="21" lean-forward="true" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+            <state relative-caret-position="270">
+              <caret line="79" column="13" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
               </folding>
@@ -124,7 +121,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shot1/Bookmarks.bak">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20083">
+            <state relative-caret-position="488">
               <caret line="1057" column="39" selection-start-line="1057" selection-start-column="34" selection-end-line="1057" selection-end-column="39" />
             </state>
           </provider>
@@ -169,8 +166,8 @@
       <find>;</find>
       <find>result['result']</find>
       <find>wjson</find>
-      <find>result_list[i]</find>
       <find>错误链接</find>
+      <find>result_list[i]</find>
     </findStrings>
     <replaceStrings>
       <replace>ORCL</replace>
@@ -589,7 +586,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543678339010</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="增加进度条打印">
+      <created>1544238810075</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1544238810075</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -691,12 +695,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/shot1/MyThreat.py</url>
-          <line>60</line>
+          <line>61</line>
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/shot1/MyThreat.py</url>
-          <line>47</line>
+          <line>48</line>
           <option name="timeStamp" value="56" />
         </line-breakpoint>
       </breakpoints>
@@ -880,13 +884,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shot1/Bookmarks.bak">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20083">
-          <caret line="1057" column="39" selection-start-line="1057" selection-start-column="34" selection-end-line="1057" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/threading.pyi">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="817">
@@ -908,10 +905,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shot1/Book.json">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/threading.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        <state relative-caret-position="167">
+          <caret line="916" selection-start-line="916" selection-end-line="916" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shot1/Bookmarks.bak">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="1057" column="39" selection-start-line="1057" selection-start-column="34" selection-end-line="1057" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -924,7 +928,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shot1/creat_html.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
+        <state relative-caret-position="-555">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
@@ -934,7 +938,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shot1/readbak.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
+        <state relative-caret-position="243">
           <caret line="35" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
@@ -942,29 +946,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/threading.py">
+    <entry file="file://$PROJECT_DIR$/shot1/Book.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="916" selection-start-line="916" selection-end-line="916" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shot1/spider_mate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="119" column="34" lean-forward="true" selection-start-line="119" selection-start-column="34" selection-end-line="119" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="266">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shot1/MyThreat.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="44" column="21" lean-forward="true" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+        <state relative-caret-position="270">
+          <caret line="79" column="13" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shot1/spider_mate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="131" column="33" lean-forward="true" selection-start-line="131" selection-start-column="33" selection-end-line="131" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
