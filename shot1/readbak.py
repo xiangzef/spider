@@ -2,7 +2,7 @@ import bs4
 import json
 
 bakpath = 'C:\\Users\\Administrator\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Bookmarks'
-
+path = '../file/result.json'
 def writbak():
     #输入文件
     f = open(bakpath ,'r',encoding='UTF-8')
@@ -32,10 +32,13 @@ def writbak():
 
 
 def readjson():
+    global path
     with open("Book.json",encoding="UTF-8") as f:
         fjson = json.loads(f.read())
         fenal_json = fjson['roots']['bookmark_bar']['children'][0]
         result = [(item.get('name', 'NA'), item.get('url', 'NA')) for item in fenal_json['children']]
+    # with open(path, "w", encoding="utf-8") as js:
+    #     json.dump(result, js, ensure_ascii=False)
     return result
 
 def readbak():

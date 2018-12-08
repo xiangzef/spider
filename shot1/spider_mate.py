@@ -8,8 +8,8 @@ import time
 # import openpyxl
 import numpy
 import re
+import MyThreat
 import creat_html as h5
-
 #pip install Pyinstaller
 #打包语句
 
@@ -84,13 +84,13 @@ def get_url(url):
     headers = {
         'user-agent': "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36"
     }
-    if url.strip().find('du871') >0:
+    if url.strip().find('du672') >0:
         res = requests.get(url, headers=headers)
         return res
 
 
 def ask(url):
-    if url.strip().find('du871') < 0:
+    if url.strip().find('du672') < 0:
         answer = "错误链接"
         name = "错误连接"
     else:
@@ -115,16 +115,9 @@ def read_url(path):
         lst = numpy.arange(1, len(result['result']), 1)
         new_list = list(newlist(lst))
         for res in result['result']:
-            if i in new_list:
-                print('{:.2%}'.format(i / len(result['result'])), end='■')
-            if i in numpy.arange(1, len(result['result']), 3):
-                print('', end='■')
-            if res['y/n'] is not "错误链接":
-                answer_name = ask(result['result'][i]['url'])
-            result['result'][i]['y/n'] = answer_name[0]
-            if str(answer_name[0]).strip() == '在线' and str(result['result'][i]['name']).strip() == '大香蕉直播間_全球美女直播_大香蕉伊人網_大香蕉网_伊人在线大香蕉' :
-                result['result'][i]['name'] = re.findall(r'[0-9a-zA-z_]+', str(answer_name[1]).strip().strip('\n'))[0]#正则表达式匹配大小写字母数字和下划线
+            MyThreat.call_thr(i, res, new_list, len(result['result']))
             i = 1 + i
+        MyThreat.start_thr(result)
     with open(path, "w", encoding="utf-8") as js:
         json.dump(result, js, ensure_ascii=False)
 
@@ -145,7 +138,8 @@ def execute(parameter):
         # 读取 book 生成 结果
         # 利用结果生成json
         readbak.readbak()
-        readbak.readjson()
+        results = readbak.readjson()
+        wjson(results, jason_filename)
         # 读 file\result.json 查询网页 更新 y/n 生成网页并打开
         read_url(jason_filename)
         h5.html_auto()
