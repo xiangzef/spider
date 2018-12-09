@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2204d5d-85b8-446f-9419-c340abd17cb6" name="Default Changelist" comment="">
+    <list default="true" id="d2204d5d-85b8-446f-9419-c340abd17cb6" name="Default Changelist" comment="增加多线程request方法">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/file/result.json" beforeDir="false" afterPath="$PROJECT_DIR$/file/result.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shot1/MyThreat.py" beforeDir="false" afterPath="$PROJECT_DIR$/shot1/MyThreat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shot1/Book.json" beforeDir="false" afterPath="$PROJECT_DIR$/shot1/Book.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shot1/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/shot1/test.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shot1/spider_mate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="131" column="33" lean-forward="true" selection-start-line="131" selection-start-column="33" selection-end-line="131" selection-end-column="33" />
+            <state relative-caret-position="28">
+              <caret line="71" column="17" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -49,7 +49,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shot1/readbak.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
+            <state relative-caret-position="646">
               <caret line="35" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -59,18 +59,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/codecs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="309" selection-start-line="309" selection-end-line="309" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shot1/creat_html.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-555">
+            <state relative-caret-position="285">
               <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
@@ -82,8 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shot1/MyThreat.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="79" column="13" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
+            <state relative-caret-position="1330">
+              <caret line="74" column="9" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
               </folding>
@@ -94,8 +85,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/threading.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="916" selection-start-line="916" selection-end-line="916" />
+            <state relative-caret-position="21204">
+              <caret line="1123" selection-start-line="1123" selection-end-line="1123" />
             </state>
           </provider>
         </entry>
@@ -121,7 +112,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shot1/Bookmarks.bak">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
+            <state relative-caret-position="20083">
               <caret line="1057" column="39" selection-start-line="1057" selection-start-column="34" selection-end-line="1057" selection-end-column="39" />
             </state>
           </provider>
@@ -217,15 +208,16 @@
         <option value="$PROJECT_DIR$/shot1/tools/is_odd.py" />
         <option value="$PROJECT_DIR$/shot1/tools/__init__.py" />
         <option value="$PROJECT_DIR$/shot1/readbak.py" />
-        <option value="$PROJECT_DIR$/shot1/spider_mate.py" />
         <option value="$PROJECT_DIR$/shot1/MyThreat.py" />
+        <option value="$PROJECT_DIR$/shot1/spider_mate.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1518" />
-    <option name="width" value="1053" />
-    <option name="height" value="1404" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="243" />
+    <option name="y" value="1" />
+    <option name="width" value="2109" />
+    <option name="height" value="1331" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -233,7 +225,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -259,6 +250,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -593,7 +585,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544238810075</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="增加多线程request方法">
+      <created>1544240264444</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1544240264444</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -609,25 +608,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1721" height="944" extended-state="6" />
+    <frame x="162" y="1" width="1406" height="887" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2777448" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.06058394" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32881773" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4908012" visible="true" weight="0.32019705" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8623145" weight="0.3596059" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48540145" visible="true" weight="0.34437087" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8331177" weight="0.35945272" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4991098" weight="0.32881773" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4991098" weight="0.32881773" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5091988" side_tool="true" visible="true" weight="0.32019705" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49970326" weight="0.32881773" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49970326" weight="0.32881773" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.51459855" side_tool="true" visible="true" weight="0.34437087" />
+      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.49970326" weight="0.32881773" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.4991098" weight="0.32881773" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -648,7 +647,8 @@
     <MESSAGE value="解决网页无响应的报错问题&#10;删除无用代码&#10;全部关联全局变量地址字符串&#10;排除不是du871的url&#10;修正y/n修改逻辑" />
     <MESSAGE value="调整html格式" />
     <MESSAGE value="增加进度条打印" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加进度条打印" />
+    <MESSAGE value="增加多线程request方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加多线程request方法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -695,7 +695,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/shot1/MyThreat.py</url>
-          <line>61</line>
+          <line>58</line>
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -884,13 +884,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/threading.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/json/decoder.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
@@ -900,48 +893,17 @@
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
+        <state relative-caret-position="5852">
           <caret line="309" selection-start-line="309" selection-end-line="309" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/threading.py">
+    <entry file="file://$PROJECT_DIR$/shot1/spider_mate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="916" selection-start-line="916" selection-end-line="916" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shot1/Bookmarks.bak">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="1057" column="39" selection-start-line="1057" selection-start-column="34" selection-end-line="1057" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file/result.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" selection-start-column="38" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shot1/creat_html.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-555">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="28">
+          <caret line="71" column="17" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shot1/readbak.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -953,23 +915,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/shot1/readbak.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shot1/creat_html.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/shot1/MyThreat.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="79" column="13" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
+        <state relative-caret-position="1330">
+          <caret line="74" column="9" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shot1/spider_mate.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/threading.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="131" column="33" lean-forward="true" selection-start-line="131" selection-start-column="33" selection-end-line="131" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="21204">
+          <caret line="1123" selection-start-line="1123" selection-end-line="1123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/threading.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file/result.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="38" selection-start-column="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shot1/Bookmarks.bak">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20083">
+          <caret line="1057" column="39" selection-start-line="1057" selection-start-column="34" selection-end-line="1057" selection-end-column="39" />
         </state>
       </provider>
     </entry>
